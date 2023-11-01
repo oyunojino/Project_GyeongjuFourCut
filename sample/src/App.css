@@ -1,0 +1,28 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+@font-face {
+  font-family: "Jeju Gothic", sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .inner {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .inner {
+    width: 500px;
+  }
+}
+.App {
+  font-family: "Jeju Gothic";
+  background-color: #ccc;
+}
+.inner {
+  position: relative;
+  margin: 0 auto;
+  /* width: 500px; */
+  height: 100vh;
+  background-color: white;
+  position: relative;
+}
